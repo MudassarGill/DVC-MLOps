@@ -1,0 +1,7 @@
+date,product,units_sold,price_per_unit
+2026-01-01,apple,10,2.0
+2026-01-02,banana,5,1.0
+2026-01-03,orange,8,1.5
+2026-01-04,apple,7,2.0
+2026-01-05,banana,12,1.0
+2026-01-06,orange,6,1.5
