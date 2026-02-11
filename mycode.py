@@ -9,8 +9,12 @@ data = {
 }
 
 df = pd.DataFrame(data)
-data_dir='Data'
+data_dir='data'
 os.makedirs(data_dir,exist_ok=True)
+print(f'Folder created at {data_dir}')
 file_path=os.path.join(data_dir,'sales.csv')
 df.to_csv(file_path,index=False)
 print(f"Data saved to {file_path}")
+
+print("\nFirst 5 rows of the dataset:")
+print(df.head())
